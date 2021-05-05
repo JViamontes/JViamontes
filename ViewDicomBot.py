@@ -63,7 +63,7 @@ def input_dicom(update, context):
 
 def main():
 
-    updater = Updater(token = '1741944471:AAGeLIVvmgmZeu0ng-vJxfIdEgQUKC1L3wc', use_context= True)
+    updater = Updater(token = 'YOU_TOKEN', use_context= True)
     dp = updater.dispatcher
     
     dp.add_handler(CommandHandler('start', start))
